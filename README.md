@@ -9,8 +9,8 @@ end-to-end test of Terraform's registry functionality.
 Usage Example:
 
     module "null_module" {
-      source  = "vancluever/module/null"
-      version = "2.0.2"
+      source  = "cdw/module/null"
+      version = "2.0.3"
       trigger = "one"
     }
 
