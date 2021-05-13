@@ -1,7 +1,8 @@
-module "null" {
-  source = "../../"
+module "n1" {
+  source = "./modules/null"
+  trigger = "two"
 }
 
-# output "null_resource_id" {
-#   value = module.null.null_resource_id
-# }
+output "null_resource_id" {
+  value = module.n1.null_resource_id
+}
